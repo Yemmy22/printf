@@ -7,8 +7,9 @@
  */
 int _printf(const char *format, ...)
 {
-	int char_to_print;
-	struct_f functs[] = {
+	int chars_to_print;
+
+	data functs[] = {
 		{"c", char_},
 		{"s", str},
 		{"%", p_cent},
