@@ -23,8 +23,8 @@ int _printf(const char *format, ...);
 int char_(va_list);
 int str(va_list);
 int p_cent(va_list);
-int integer(va_list args);
-int num(va_list args);
+int integer(va_list);
+int num(va_list);
 int _write_char(char c);
 
 #endif
